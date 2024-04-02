@@ -43,7 +43,13 @@ def CalculaPosto(matrizA, matrizB ,matrizAAmpliada):
         if(postoA == n):
             print("Sistema com apenas uma solucao.")
             solucao = np.linalg.solve(matrizA, matrizB)
-            print("Solucao: ", solucao)
+            if(n==2):
+                print("Solucao: \n", "x=", solucao[0], ", y=", solucao[1])
+            if(n==3):
+                print("Solucao: \n", "x=", solucao[0], ", y=", solucao[1], ", z=", solucao[2])
+            if(n==4):
+                print("Solucao: \n", "x=", solucao[0], ", y=", solucao[1], ", z=", solucao[2], ", t=",solucao[3])
+
 
 
 print("Sistema letra a:")
