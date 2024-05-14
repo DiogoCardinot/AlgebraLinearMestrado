@@ -12,8 +12,8 @@ def ContracaoExpansao(vetor, alpha, Questao):
     # f'Contração ou expansão de ['+ str(vetor[0])+', "+ str(vetor[1])+"] com $\alpha$= '+ str(alpha)+"\n Questão "+ Questao
     plt.show()
 
-# ContracaoExpansao(np.array((1,2)),2, "1- a)")
-# ContracaoExpansao(np.array((1,2)),-3, "1- b)")
+ContracaoExpansao(np.array((1,2)),2, "1- a)")
+ContracaoExpansao(np.array((1,2)),-3, "1- b)")
 
 
 # QUESTAO 2
@@ -24,7 +24,7 @@ def ReflexaoEixoX(vetor, Questao):
     plt.title(f"Reflexão em torno do eixo x para [{str(vetor[0])}, {str(vetor[1])}] \n Questão {Questao}")
     plt.show()
 
-# ReflexaoEixoX(np.array((-3,-6)), "2")
+ReflexaoEixoX(np.array((-3,-6)), "2")
 
 
 # QUESTÃO 3
@@ -35,7 +35,7 @@ def ReflexaoOrigem(vetor, Questao):
     plt.title(f"Reflexão em torno da origem para [{str(vetor[0])}, {str(vetor[1])}] \n Questão {Questao}")
     plt.show()
 
-# ReflexaoOrigem(np.array((5,3)), "3")
+ReflexaoOrigem(np.array((5,3)), "3")
 
 
 # QUESTÃO 4
@@ -46,8 +46,8 @@ def RotacaoAntiHorarioAngulo(vetor, teta, Questao):
     plt.title(f"Rotação anti horária para o vetor [{str(vetor[0])}, {str(vetor[1])}] \n Questão {Questao}")
     plt.show()
 
-# RotacaoAntiHorarioAngulo(np.array((2,3)), np.pi, "4- a)")
-# RotacaoAntiHorarioAngulo(np.array((-1,-2)), 3*(np.pi)/2, "4- b)")
+RotacaoAntiHorarioAngulo(np.array((2,3)), np.pi, "4- a)")
+RotacaoAntiHorarioAngulo(np.array((-1,-2)), 3*(np.pi)/2, "4- b)")
 
 
 #QUESTÃO 5
